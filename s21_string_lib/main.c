@@ -1,11 +1,10 @@
-#include "tests/s21_tests.h"
+#include "../tests/s21_tests.h"
 
 int main() {
     run_tests();
 
     return 0;
 }
-
 
 void run_tests(){
     int counter_testcase = 0;
@@ -34,3 +33,4 @@ void run_testcase(Suite *testcase, int counter_testcase) {
     srunner_free(sr);
 
 }
+
