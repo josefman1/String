@@ -6,3 +6,7 @@
 #include "../S21_string/S21_string.h"
 
 Suite *suite_strlen(void);
+Suite *suite_strchr(void);
+Suite *suite_strcpy(void);
+Suite *suite_strstr(void);
+Suite *suite_strtok(void);
