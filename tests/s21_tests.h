@@ -10,3 +10,4 @@ Suite *suite_strchr(void);
 Suite *suite_strcpy(void);
 Suite *suite_strstr(void);
 Suite *suite_strtok(void);
+Suite *suite_memmove(void);
